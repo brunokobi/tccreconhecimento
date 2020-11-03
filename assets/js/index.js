@@ -146,7 +146,7 @@ cam.addEventListener('play', async () => {
 
                  
 
-                 fetch('http://https://radiant-gorge-04331.herokuapp.com/registros', {
+                 fetch('https://radiant-gorge-04331.herokuapp.com/registros', {
                      method: 'POST',
                      headers: {
                      'Content-Type': 'application/json',
