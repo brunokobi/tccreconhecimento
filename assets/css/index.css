@@ -1,0 +1,165 @@
+
+body {
+    flex-direction: column;
+   background-color:#0053c7;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.header{
+  animation-name: example;
+    animation-duration: 1s;
+    display: flex;
+    background:url(../img/fundo1.jpg) no-repeat center;
+    width: 100vw;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+h2{
+    align-items: center;
+    font-family: 'roboto',italic;
+    margin-left: 25px;
+    background:#0053c7;   
+    border: 2px solid #000;
+    padding:8px;
+    margin-right:25px; 
+    color:#fff;
+    font-size: 32px;   
+}
+
+
+
+.content{
+  animation-name: example;
+  animation-duration: 8s;
+   
+}
+.presence{
+    margin-top: 10px;
+}
+img {    
+    height: 150px; 
+    margin-left: auto;
+    margin-right:25px; 
+  }
+
+canvas {
+    margin-top: 165px;
+    position: fixed;    
+}
+
+video{
+    margin-top: 160px;     
+    padding: 2px;
+    border: 8px dashed#fff;
+}
+
+texto{
+    font-weight: bold;
+    font-size: 20px;
+    align-self: start import!;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: auto;
+    background:#060;
+    border-radius:20px;
+    border: 2px solid #000;
+    padding:10px;
+    margin-right:20px; 
+    color:#fff;
+    font-size: 24px;   
+}
+
+a {
+    align-items: center;
+    border-radius: 5px;   
+    margin-left: 10px;
+    background:#fff;   
+    border: 5px solid #000;
+    padding:5px;
+    padding-left: 25px;
+    margin-right:auto; 
+    color:#fff;
+    font-size: 32px; 
+ 
+ 
+}
+
+.svg {
+    align-content: center;
+    align-items: center;
+    color:#000;
+    width: 40px;
+    height: 40px;
+  }
+
+    hover{
+        background-color: darkblue;
+    }    
+    
+    svg {
+      color:#fff;
+      width: 20px;
+      height: 20px;
+    }
+
+    .btn:focus, .btn::-moz-focus-inner{
+        outline:none;
+        border: 5px solid #000;
+      }
+      .btn{
+        font-family: arial;
+        font-size:14px;
+        text-transform: uppercase;
+        font-weight:700;
+        border:none;
+        padding:10px;
+        cursor: pointer;
+        display:inline-block;
+        text-decoration: none;
+      }
+      
+      .btn-purple{
+        border: 1px solid #000;
+        background:#0053c7;
+        color:#fff;
+        box-shadow:3px 5px 0 #0033c7;
+      }
+      .btn-purple:hover{
+        background:#0043c7;
+        box-shadow:3px 5px 0 #0003c0;
+        color:#ddd9de;
+      }
+     
+      .btn-purple:active{
+        position:relative;
+        top:5px;
+        box-shadow:none;
+      }
+
+     
